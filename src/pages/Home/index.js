@@ -1,1 +1,0 @@
-import tailwind from '../tailwind.config';

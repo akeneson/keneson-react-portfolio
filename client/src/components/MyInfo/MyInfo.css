@@ -1,0 +1,21 @@
+.card,
+.card-group {
+  background-color: #203354 !important;
+}
+.card-body {
+  background-color: white !important;
+  color: black;
+  text-align: center;
+}
+.card-footer {
+  background-color: pink;
+  padding: 10px;
+}
+.card-header {
+  color: #203354;
+  font-weight: 700;
+  text-align: center;
+}
+.Card.Img{
+    color: white;
+}

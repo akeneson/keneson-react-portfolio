@@ -1,16 +1,11 @@
-import React, { useState } from "react";
-import Home from "../components/Home"
+import React from "react";
+import { Jumbotron, Container } from "react-bootstrap";
+import HomePage from "../components/HomePage/HomePage";
 
-const HomePage = () => {
-  
-
+const Home = () => {
   return (
-    <React.Fragment>
-    <h1>Home page working</h1>
-    <Home/>
-
-    </React.Fragment>
+    <Jumbotron />
   );
 };
 
-export default HomePage;
+export default Home;

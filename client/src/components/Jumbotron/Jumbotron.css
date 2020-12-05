@@ -1,0 +1,19 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+Body {
+    padding: 10px;
+    margin-top: none;
+    background-color: #203354;
+    color: white;
+}
+  
+.jumbotron {
+    background-color: transparent !important;
+    text-align: center;
+}
+.pink {
+    color: pink !important;
+}
+  

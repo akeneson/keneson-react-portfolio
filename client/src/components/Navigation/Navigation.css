@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+body
+{
+    padding: 10px;
+    margin-top: none;
+    background-color: #203354;
+    color: white;
+}
+.pink{
+    color: pink!important;
+}
+.navbar{
+    background-color: transparent!important;
+    border-top: 1px solid pink;
+    border-bottom: 1px solid pink;
+}
+.navbar a{
+    color: white!important;
+}
+.navbar a:hover{
+    color:pink!important;
+}
+.pink{
+    color:pink!important;
+}
+.author{
+    text-align: right;
+}
+footer{
+    text-align: center;
+}
+.portfolio{
+    background-color: white;
+    color:#203354!important;
+}

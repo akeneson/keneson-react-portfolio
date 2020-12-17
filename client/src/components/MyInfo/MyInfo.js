@@ -5,22 +5,27 @@ import "./pic.png";
 
 const MyInfo = () => {
   return (
-<CardGroup>
-<Card>
-  <Card.Img variant="top" /> My Vision
+
+
+
+
+
+
+
+
+<Row className="d-flex justify-content-center px-5">
+<Card className="col-md-4 bg-white">
+    <Card.Title>My Vision</Card.Title>
+  {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
   <Card.Body>
-    {/* <Card.Title></Card.Title> */}
     <Card.Text>
     I am looking to join a team to improve health care technology. I envision a future of efficient and effective medical applications to improve patient care. With a health care provider point of view and a graduate of a fullstack program my goal is to help close the gap between medicine and technology. Let's be the Apple of Health Care!
     </Card.Text>
   </Card.Body>
-  <Card.Footer>
-    <small className="text-muted">-"Expect nothing, appreciate everything"
-unknown</small>
-  </Card.Footer>
 </Card>
-<Card>
+<Card className="col-md-4 d-flex">
   {/* <Card.Img variant="top" img src="./pic.png" /> */}
+  <Card.Img variant="top" src="https://picsum.photos/200/300" />
   <Card.Body>
     <Card.Title>About Me</Card.Title>
     <Card.Text>
@@ -30,13 +35,23 @@ unknown</small>
     <p> Dogs name: Pikachu</p>
     </Card.Text>
   </Card.Body>
-  <Card.Footer>
-    <small className="text-muted">"The only thing standing between you and your goal is the bullshit story you keep telling yourself as to why you can't achieve it" - Jordan Belfort</small>
-  </Card.Footer>
 </Card>
-<Card>
-  {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
-  Resume
+
+
+<Card className="col-md-4">
+  {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+  <Card.Body>
+    <Card.Title></Card.Title>
+    <Card.Text>
+     
+    </Card.Text>
+  </Card.Body>
+</Card>
+</Row>
+
+/* <Card> */
+  /* <Card.Img variant="top" src="holder.js/100px160" /> */
+  /* Resume
   <Card.Body>
     <Card.Title></Card.Title>
     <Card.Text>
@@ -91,7 +106,8 @@ unknown</small>
     <small className="text-muted">"Think big, trust yourself, and make it happen." -unknown</small>
   </Card.Footer>
 </Card>
-</CardGroup>
+</CardGroup> */
   )
+
 }
 export default MyInfo;

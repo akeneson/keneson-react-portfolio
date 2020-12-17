@@ -19,3 +19,8 @@
 .Card.Img{
     color: white;
 }
+.card-title{
+  color:#203354!important;
+  text-align: center;
+  padding: 20px;
+}
